@@ -35,6 +35,12 @@ body {
   background-color: #fff;
   color: #e02c6d;
 }
+.section-title {
+  font-size: 30px;
+  font-weight: 600;
+  margin: 80px 0;
+  text-align: center;
+}
 /*=========//= end common css start =//==========*/
 /*=========//= end common css start =//==========*/
 /*=========//= end common css start =//==========*/
@@ -109,5 +115,59 @@ header {
   align-items: center;
 }
 .right-banner img {
-  width: 80%;
+  width: 85%;
+}
+
+/*=========//= end of header css part =//==========*/
+/*=========//= end of header css part =//==========*/
+/*=========//= end of header css part =//==========*/
+.collection {
+  padding: 100px 0;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.card {
+  width: 350px;
+  padding: 30px;
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+.collection-banner img {
+  width: 100%;
+}
+.collection-info h2 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 6px 0;
+}
+.collection-info .cost {
+  font-size: 18px;
+  font-weight: 500;
+}
+.collection-info .ratting {
+  margin: 10px 0 5px;
+}
+.collection-info .ratting .fas {
+  font-size: 15px;
+}
+.collection-info .ratting .filled {
+  color: #fb8200;
+}
+.collection-info .ratting .empty {
+  color: #c5c4c4;
+}
+
+.collection-info .ratting > span {
+  color: #6d6e6e;
+  font-weight: 600;
+}
+.collection-info .details > a {
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #5f6161;
 }
